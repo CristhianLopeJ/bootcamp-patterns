@@ -14,7 +14,8 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.11'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.5.3'
-
+    // https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc
+    implementation group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '8.4.0.jre14'
 }
 
 test {
